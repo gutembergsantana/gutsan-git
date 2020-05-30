@@ -1,5 +1,5 @@
 import os
-global parimpar():
+def parimpar():
     num1 = float(input("Digite o primeiro número: "))
     num2 = float(input("Digite o segundo número: "))
     parimpar1 = num1%2
@@ -48,7 +48,7 @@ global parimpar():
             print("A divisão de ", num1, "por ", num2, "é: ", num1 / num2)
     """
         switch(opc)
-        case "0":print("Até breve")
+        case "0":print("Até uma próxima operação")
         caso "1":print("A soma de ",num1,"+ ",num2, "é: ",num1+num2)
         caso "2":print("A subtração de ", num1, "e ", num2, "é: ", num1 - num2)
         caso "3":print("A multiplicação de ", num1, "e ", num2, "é: ", num1 * num2)
