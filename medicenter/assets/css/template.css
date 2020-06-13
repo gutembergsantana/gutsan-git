@@ -49,7 +49,7 @@ nav a:hover{
 #banner{
 	display: flex;
 	justify-content: center;
-	background-image: url('../imagens/img1.jpg');
+	background-image: url('../imagens/Sitio1.jpg');
 	background-position: center;
 	background-size: cover;  /* A imagem vai se adaptar à largura do dispositivo */
 	height: 670px;
